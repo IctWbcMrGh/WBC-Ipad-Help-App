@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5417433D1DD1FDA0009D0B1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417433C1DD1FDA0009D0B1C /* AppDelegate.swift */; };
+		5417433F1DD1FDA0009D0B1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417433E1DD1FDA0009D0B1C /* ViewController.swift */; };
+		541743421DD1FDA0009D0B1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541743401DD1FDA0009D0B1C /* Main.storyboard */; };
+		541743441DD1FDA0009D0B1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 541743431DD1FDA0009D0B1C /* Assets.xcassets */; };
+		541743471DD1FDA0009D0B1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 541743451DD1FDA0009D0B1C /* LaunchScreen.storyboard */; };
+		541743521DD1FDA0009D0B1C /* wbc_ipad_help_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 541743511DD1FDA0009D0B1C /* wbc_ipad_help_appTests.swift */; };
+		5417435D1DD1FDA0009D0B1C /* wbc_ipad_help_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5417435C1DD1FDA0009D0B1C /* wbc_ipad_help_appUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5417434E1DD1FDA0009D0B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541743311DD1FD9F009D0B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541743381DD1FDA0009D0B1C;
+			remoteInfo = "wbc ipad help app";
+		};
+		541743591DD1FDA0009D0B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 541743311DD1FD9F009D0B1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 541743381DD1FDA0009D0B1C;
+			remoteInfo = "wbc ipad help app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		541743391DD1FDA0009D0B1C /* wbc ipad help app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "wbc ipad help app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5417433C1DD1FDA0009D0B1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5417433E1DD1FDA0009D0B1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		541743411DD1FDA0009D0B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		541743431DD1FDA0009D0B1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		541743461DD1FDA0009D0B1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		541743481DD1FDA0009D0B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5417434D1DD1FDA0009D0B1C /* wbc ipad help appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wbc ipad help appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		541743511DD1FDA0009D0B1C /* wbc_ipad_help_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wbc_ipad_help_appTests.swift; sourceTree = "<group>"; };
+		541743531DD1FDA0009D0B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		541743581DD1FDA0009D0B1C /* wbc ipad help appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "wbc ipad help appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5417435C1DD1FDA0009D0B1C /* wbc_ipad_help_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wbc_ipad_help_appUITests.swift; sourceTree = "<group>"; };
+		5417435E1DD1FDA0009D0B1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		541743361DD1FDA0009D0B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417434A1DD1FDA0009D0B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541743551DD1FDA0009D0B1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		541743301DD1FD9F009D0B1C = {
+			isa = PBXGroup;
+			children = (
+				5417433B1DD1FDA0009D0B1C /* wbc ipad help app */,
+				541743501DD1FDA0009D0B1C /* wbc ipad help appTests */,
+				5417435B1DD1FDA0009D0B1C /* wbc ipad help appUITests */,
+				5417433A1DD1FDA0009D0B1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5417433A1DD1FDA0009D0B1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				541743391DD1FDA0009D0B1C /* wbc ipad help app.app */,
+				5417434D1DD1FDA0009D0B1C /* wbc ipad help appTests.xctest */,
+				541743581DD1FDA0009D0B1C /* wbc ipad help appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5417433B1DD1FDA0009D0B1C /* wbc ipad help app */ = {
+			isa = PBXGroup;
+			children = (
+				5417433C1DD1FDA0009D0B1C /* AppDelegate.swift */,
+				5417433E1DD1FDA0009D0B1C /* ViewController.swift */,
+				541743401DD1FDA0009D0B1C /* Main.storyboard */,
+				541743431DD1FDA0009D0B1C /* Assets.xcassets */,
+				541743451DD1FDA0009D0B1C /* LaunchScreen.storyboard */,
+				541743481DD1FDA0009D0B1C /* Info.plist */,
+			);
+			path = "wbc ipad help app";
+			sourceTree = "<group>";
+		};
+		541743501DD1FDA0009D0B1C /* wbc ipad help appTests */ = {
+			isa = PBXGroup;
+			children = (
+				541743511DD1FDA0009D0B1C /* wbc_ipad_help_appTests.swift */,
+				541743531DD1FDA0009D0B1C /* Info.plist */,
+			);
+			path = "wbc ipad help appTests";
+			sourceTree = "<group>";
+		};
+		5417435B1DD1FDA0009D0B1C /* wbc ipad help appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5417435C1DD1FDA0009D0B1C /* wbc_ipad_help_appUITests.swift */,
+				5417435E1DD1FDA0009D0B1C /* Info.plist */,
+			);
+			path = "wbc ipad help appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		541743381DD1FDA0009D0B1C /* wbc ipad help app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541743611DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help app" */;
+			buildPhases = (
+				541743351DD1FDA0009D0B1C /* Sources */,
+				541743361DD1FDA0009D0B1C /* Frameworks */,
+				541743371DD1FDA0009D0B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "wbc ipad help app";
+			productName = "wbc ipad help app";
+			productReference = 541743391DD1FDA0009D0B1C /* wbc ipad help app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5417434C1DD1FDA0009D0B1C /* wbc ipad help appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541743641DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help appTests" */;
+			buildPhases = (
+				541743491DD1FDA0009D0B1C /* Sources */,
+				5417434A1DD1FDA0009D0B1C /* Frameworks */,
+				5417434B1DD1FDA0009D0B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5417434F1DD1FDA0009D0B1C /* PBXTargetDependency */,
+			);
+			name = "wbc ipad help appTests";
+			productName = "wbc ipad help appTests";
+			productReference = 5417434D1DD1FDA0009D0B1C /* wbc ipad help appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		541743571DD1FDA0009D0B1C /* wbc ipad help appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 541743671DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help appUITests" */;
+			buildPhases = (
+				541743541DD1FDA0009D0B1C /* Sources */,
+				541743551DD1FDA0009D0B1C /* Frameworks */,
+				541743561DD1FDA0009D0B1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5417435A1DD1FDA0009D0B1C /* PBXTargetDependency */,
+			);
+			name = "wbc ipad help appUITests";
+			productName = "wbc ipad help appUITests";
+			productReference = 541743581DD1FDA0009D0B1C /* wbc ipad help appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		541743311DD1FD9F009D0B1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "ICT-Beheer WC Zwijndrecht";
+				TargetAttributes = {
+					541743381DD1FDA0009D0B1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RZ6W7MGEX4;
+						ProvisioningStyle = Automatic;
+					};
+					5417434C1DD1FDA0009D0B1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RZ6W7MGEX4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541743381DD1FDA0009D0B1C;
+					};
+					541743571DD1FDA0009D0B1C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RZ6W7MGEX4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 541743381DD1FDA0009D0B1C;
+					};
+				};
+			};
+			buildConfigurationList = 541743341DD1FD9F009D0B1C /* Build configuration list for PBXProject "wbc ipad help app" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 541743301DD1FD9F009D0B1C;
+			productRefGroup = 5417433A1DD1FDA0009D0B1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541743381DD1FDA0009D0B1C /* wbc ipad help app */,
+				5417434C1DD1FDA0009D0B1C /* wbc ipad help appTests */,
+				541743571DD1FDA0009D0B1C /* wbc ipad help appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		541743371DD1FDA0009D0B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541743471DD1FDA0009D0B1C /* LaunchScreen.storyboard in Resources */,
+				541743441DD1FDA0009D0B1C /* Assets.xcassets in Resources */,
+				541743421DD1FDA0009D0B1C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5417434B1DD1FDA0009D0B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541743561DD1FDA0009D0B1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		541743351DD1FDA0009D0B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5417433F1DD1FDA0009D0B1C /* ViewController.swift in Sources */,
+				5417433D1DD1FDA0009D0B1C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541743491DD1FDA0009D0B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				541743521DD1FDA0009D0B1C /* wbc_ipad_help_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		541743541DD1FDA0009D0B1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5417435D1DD1FDA0009D0B1C /* wbc_ipad_help_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5417434F1DD1FDA0009D0B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541743381DD1FDA0009D0B1C /* wbc ipad help app */;
+			targetProxy = 5417434E1DD1FDA0009D0B1C /* PBXContainerItemProxy */;
+		};
+		5417435A1DD1FDA0009D0B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 541743381DD1FDA0009D0B1C /* wbc ipad help app */;
+			targetProxy = 541743591DD1FDA0009D0B1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		541743401DD1FDA0009D0B1C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541743411DD1FDA0009D0B1C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		541743451DD1FDA0009D0B1C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				541743461DD1FDA0009D0B1C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5417435F1DD1FDA0009D0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		541743601DD1FDA0009D0B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		541743621DD1FDA0009D0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		541743631DD1FDA0009D0B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help app/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		541743651DD1FDA0009D0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wbc ipad help app.app/wbc ipad help app";
+			};
+			name = Debug;
+		};
+		541743661DD1FDA0009D0B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help appTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wbc ipad help app.app/wbc ipad help app";
+			};
+			name = Release;
+		};
+		541743681DD1FDA0009D0B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "wbc ipad help app";
+			};
+			name = Debug;
+		};
+		541743691DD1FDA0009D0B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = RZ6W7MGEX4;
+				INFOPLIST_FILE = "wbc ipad help appUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.eman.iosApp.try05.ghe.wbc-ipad-help-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "wbc ipad help app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		541743341DD1FD9F009D0B1C /* Build configuration list for PBXProject "wbc ipad help app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5417435F1DD1FDA0009D0B1C /* Debug */,
+				541743601DD1FDA0009D0B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		541743611DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541743621DD1FDA0009D0B1C /* Debug */,
+				541743631DD1FDA0009D0B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541743641DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541743651DD1FDA0009D0B1C /* Debug */,
+				541743661DD1FDA0009D0B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		541743671DD1FDA0009D0B1C /* Build configuration list for PBXNativeTarget "wbc ipad help appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541743681DD1FDA0009D0B1C /* Debug */,
+				541743691DD1FDA0009D0B1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 541743311DD1FD9F009D0B1C /* Project object */;
+}
